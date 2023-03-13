@@ -1,0 +1,40 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  height: 49px;
+  padding: 0 30px;
+}
+
+.ulList {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.navigationList {
+  color: #d0d0d0;
+  font-size: 16px;
+}
+.navigationList:link {
+  color: #d0d0d0;
+  text-decoration: none;
+}
+.navigationList:visited {
+  color: #d0d0d0;
+  text-decoration: none;
+}
+
+.sosButton {
+  background-color: #ee303c;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #d0d0d0;
+  font-size: 18px;
+  margin-left: 36px;
+  margin-right: 292px;
+  width: 94px;
+  height: 35px;
+}
